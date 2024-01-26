@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+    color: #3a4466;
+}
+
+.title{
+    font-weight: 100;
+   font-size: 1em;
+   color:#828eb6;
+}
+
+.subtitle{
+    margin-top: 0.5em;
+ font-size: 1.3em;
+}
+
+.container_search_module{
+      display: flex;
+    flex-direction: row;
+    align-items: end;
+    align-self: flex-end;
+    flex-grow: initial;    
+}
+
+hr{
+    margin-top: 0.7em;
+    color: deeppink;
+    border: 0.5px solid #3a4466;
+}
+
+header{
+     padding: 2.5em;
+}
+
+main{
+     padding: 2em;
+}
+
+.search_module{
+      width: 75%;
+    display: flex;
+} 
+
+thead > tr:hover{
+    color: #3a4466;
+}
+
+table,tr{
+     width: 100%;
+}
+
+tr:hover{
+    color: #131827;
+}
+
+td{
+     padding: 1.2em 0.5em;   
+}
+
+.btn_editar{
+    color: rgb(50, 128, 50);
+    position: relative;
+    padding: 0.5em 1.5em;
+    left: 2.5em;
+    text-decoration: none;
+}
+
+.btn_editar:hover{
+    background-color: rgb(125, 247, 125);
+    outline: 1px solid green;
+} 
+
+.btn_eliminar:hover{
+    background-color: rgb(247, 125, 125);
+    outline: 1px solid red;
+}
+
+.btn_eliminar{
+     color: rgb(119, 8, 8);
+     position: relative;
+     padding: 0.5em 1.5em;
+     left: 4em;
+    text-decoration: none;
+}
+
+
+.departamento{
+  background-color:rgb(206, 209, 206);
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: #3a4466;
+  margin-right: 1em;
+}
+
+.cargo{
+   background-color: rgb(206, 209, 206);; 
+ width: 23%;
+display: flex;
+justify-content: center;
+color: #3a4466;
+}
+
+.container_new_user{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+     color: #3a4466;;
+}
+
+.new_user{
+    background-color:rgb(206, 209, 206);
+    color: #3a4466;
+    padding: 0.7em 1.7em;
+    text-decoration: none;
+}
+
+.logout{
+    background-color: rgb(206, 209, 206);
+    color: #3a4466;
+    text-decoration: none;
+    position: relative;
+    left: 0.9em;
+    padding: 0.7em 1.7em;
+}
+
+
+.container{
+    background-color: cadetblue;
+}
